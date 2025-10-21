@@ -1,7 +1,11 @@
-import React from 'react';
-import { publications } from '../data/publications';
-import { BookOpen, Calendar, Globe, Award } from 'lucide-react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { BookOpen, Calendar, Globe, Award } from "lucide-react";
+import { motion } from "framer-motion";
+
+const publications = [
+  { title: "Integration of IoT in Environmental Health Monitoring", journal: "J. Env Health Sci", year: "2024", doi: "10.1234/jehs.2024.001", citations: 45 },
+  { title: "ML for Urban AQI Prediction", journal: "Env Tech & Innovation", year: "2023", doi: "10.1234/eti.2023.112", citations: 62 },
+];
 
 export default function PublicationsList() {
   return (
@@ -24,10 +28,10 @@ export default function PublicationsList() {
             >
               <h3 className="text-lg font-semibold text-white mb-2">{pub.title}</h3>
               <div className="flex flex-wrap gap-4 text-sm text-slate-400">
-                <span className="inline-flex items-center gap-1"><BookOpen className="w-4 h-4"/>{pub.journal}</span>
-                <span className="inline-flex items-center gap-1"><Calendar className="w-4 h-4"/>{pub.year}</span>
-                <span className="inline-flex items-center gap-1"><Globe className="w-4 h-4"/>DOI: {pub.doi}</span>
-                <span className="inline-flex items-center gap-1"><Award className="w-4 h-4"/>{pub.citations} citations</span>
+                <span className="inline-flex items-center gap-1"><BookOpen className="w-4 h-4" />{pub.journal}</span>
+                <span className="inline-flex items-center gap-1"><Calendar className="w-4 h-4" />{pub.year}</span>
+                <span className="inline-flex items-center gap-1"><Globe className="w-4 h-4" />DOI: {pub.doi}</span>
+                <span className="inline-flex items-center gap-1"><Award className="w-4 h-4" />{pub.citations} citations</span>
               </div>
             </motion.div>
           ))}

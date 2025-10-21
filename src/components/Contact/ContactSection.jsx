@@ -1,6 +1,6 @@
-import React from 'react';
-import { Mail, Phone, MapPin, Briefcase, Github, Linkedin } from 'lucide-react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { Mail, Phone, MapPin, Briefcase, Github, Linkedin } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function ContactSection() {
   return (
@@ -24,27 +24,15 @@ export default function ContactSection() {
             </p>
 
             <div className="space-y-3 text-slate-300">
-              <a href="mailto:mina.allison@envirotech.com" className="flex items-center gap-3 hover:text-green-400">
-                <Mail className="w-5 h-5"/> mina.allison@envirotech.com
-              </a>
-              <a href="tel:+1234567890" className="flex items-center gap-3 hover:text-green-400">
-                <Phone className="w-5 h-5"/> +1 (234) 567-890
-              </a>
-              <div className="flex items-center gap-3">
-                <MapPin className="w-5 h-5"/> San Francisco, CA / Remote
-              </div>
-              <div className="flex items-center gap-3">
-                <Briefcase className="w-5 h-5"/> Open to Opportunities
-              </div>
+              <a href="mailto:mina.allison@envirotech.com" className="flex items-center gap-3 hover:text-green-400"><Mail className="w-5 h-5" /> mina.allison@envirotech.com</a>
+              <a href="tel:+1234567890" className="flex items-center gap-3 hover:text-green-400"><Phone className="w-5 h-5" /> +1 (234) 567-890</a>
+              <div className="flex items-center gap-3"><MapPin className="w-5 h-5" /> San Francisco, CA / Remote</div>
+              <div className="flex items-center gap-3"><Briefcase className="w-5 h-5" /> Open to Opportunities</div>
             </div>
 
             <div className="flex gap-3 pt-2">
-              <a href="https://github.com/minaallison" className="p-3 bg-slate-800 rounded-lg text-slate-300 hover:text-green-400 hover:bg-slate-700">
-                <Github className="w-6 h-6"/>
-              </a>
-              <a href="https://linkedin.com/in/minaallison" className="p-3 bg-slate-800 rounded-lg text-slate-300 hover:text-green-400 hover:bg-slate-700">
-                <Linkedin className="w-6 h-6"/>
-              </a>
+              <a href="https://github.com/minaallison" className="p-3 bg-slate-800 rounded-lg text-slate-300 hover:text-green-400 hover:bg-slate-700"><Github className="w-6 h-6" /></a>
+              <a href="https://linkedin.com/in/minaallison" className="p-3 bg-slate-800 rounded-lg text-slate-300 hover:text-green-400 hover:bg-slate-700"><Linkedin className="w-6 h-6" /></a>
             </div>
           </motion.div>
 
@@ -63,7 +51,7 @@ export default function ContactSection() {
               href="mailto:mina.allison@envirotech.com?subject=Portfolio%20Inquiry"
               className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition"
             >
-              <Mail className="w-5 h-5"/> Send Email
+              <Mail className="w-5 h-5" /> Send Email
             </a>
           </motion.div>
         </div>

@@ -1,3 +1,22 @@
+/* Tailwind v4 entry */
 @import "tailwindcss";
-html, body { margin: 0; scroll-behavior: smooth; background-color: #020617; }
 
+/* Base dark + readable text */
+:root { color-scheme: dark; }
+
+html, body, #root { height: 100%; }
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: #020617; /* slate-950 */
+  color: #e5e7eb;            /* slate-200 */
+  margin: 0;
+}
+
+/* Optional helpers */
+a { text-decoration: none; }
+img { display: block; }
+
+/* Fix: section headings & paragraphs readable */
+section p { color: #cbd5e1; }      /* slate-300 */
+section h2, section h3 { color: #e2e8f0; } /* slate-200 */
