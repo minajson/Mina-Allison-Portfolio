@@ -1,5 +1,5 @@
 import React from 'react';
-import { skills, certifications } from '../data/portfolioData';
+import { skills, certifications } from '../../data/portfolioData';
 import { Award } from 'lucide-react';
 
 export default function Skills() {
