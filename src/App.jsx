@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navigation/Navbar';
 import Hero from './components/Hero/Hero';
 import Skills from './components/Skills/SkillBar';
+import AboutSection from './components/About/AboutSection';
 
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Skills />
+      <AboutSection />
     </div>
   );
 }
