@@ -25,8 +25,8 @@ export default function ContactSection() {
 
             <div className="space-y-3 text-slate-300">
               <a href="mailto:mina.allison@envirotech.com" className="flex items-center gap-3 hover:text-green-400"><Mail className="w-5 h-5" /> mina.allison@envirotech.com</a>
-              <a href="tel:+1234567890" className="flex items-center gap-3 hover:text-green-400"><Phone className="w-5 h-5" /> +1 (234) 567-890</a>
-              <div className="flex items-center gap-3"><MapPin className="w-5 h-5" /> San Francisco, CA / Remote</div>
+              <a href="tel:+2347037349992" className="flex items-center gap-3 hover:text-green-400"><Phone className="w-5 h-5" /> +1 (234) 567-890</a>
+              <div className="flex items-center gap-3"><MapPin className="w-5 h-5" /> Nigeria </div>
               <div className="flex items-center gap-3"><Briefcase className="w-5 h-5" /> Open to Opportunities</div>
             </div>
 
