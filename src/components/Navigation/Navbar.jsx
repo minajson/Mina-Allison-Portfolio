@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Leaf } from 'lucide-react';
-import { navItems } from '../data/portfolioData';
+import { navItems } from "../../data/portfolioData";
+
+
 
 export default function Navbar() {
   const [scrollY, setScrollY] = useState(0);
